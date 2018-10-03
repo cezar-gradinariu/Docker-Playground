@@ -1,4 +1,4 @@
-127  docker image build . 
+  127  docker image build . 
   130  docker image build . -t ofx/cezar
   132  docker image ls
   133  docker image ls | grep -i cezar
