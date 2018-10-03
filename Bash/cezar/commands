@@ -1,0 +1,36 @@
+127  docker image build . 
+  130  docker image build . -t ofx/cezar
+  132  docker image ls
+  133  docker image ls | grep -i cezar
+  134  docker container run ofx/cezar
+  135  docker ps 
+  136  docker ps -a
+  146  docker image build . -t ofx/cezar
+  147  docker container run ofx/cezar
+  148  docker ps -a
+  149  docker container rm 141
+  150  docker container rm  e04
+  154  docker ps -aq
+  155  docker ps -a
+  156  docker rm 76731de30adc
+  157  docker container run --rm ofx/cezar
+  158  docker container run --rm ofx/cezar
+  159  docker ps -a
+  160  history | grep docker
+  163  docker container run -it ofx/cezar bash
+  164  docker container run -it ofx/cezar --entrypoint bash 
+  166  docker image build . -t ofx/cezar
+  167  docker image build . -t ofx/cezar
+  168  docker image build . -t ofx/cezar
+  169  docker container run --rm ofx/cezar
+  170  docker image build . -t ofx/cezar
+  171  docker container run --rm ofx/cezar
+  172  docker run -it ofx/cezar bash
+  173  docker ps -a
+  174  docker exec -it 5b0e
+  175  docker exec -it 5b0e bash
+  176  docker ps -a
+  177  docker stop 5b0
+  178  docker ps -a
+  179  docker start 5b0
+  180  docker exec -it 5b0e bash
